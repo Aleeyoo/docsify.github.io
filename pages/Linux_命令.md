@@ -1,4 +1,3 @@
-```
 ## 帮助命令
 
 <!-- tabs:start -->
@@ -981,5 +980,5 @@
 > echo "Hello Linux"      输出字符串 "Hello Linux"<br>
 
 <!-- tabs:end -->
-```
+
 
