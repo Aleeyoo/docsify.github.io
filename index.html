@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <title>文档</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="文档">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="icon" type="image/x-icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✍️</text></svg>">
+  <link rel="stylesheet" href="//unpkg.com/docsify-accordion/src/style.css">
+  <style>
+    :root {
+      --theme-color: #6B5B95;
+      --theme-color-light: #8A7CB0;
+      --theme-color-dark: #4A3B6B;
+    }
+
+    .sidebar {
+      background-color: #f8f9fa;
+      width: 200px;
+      min-width: 200px;
+    }
+
+    .app-name {
+      color: #6B5B95;
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    aside.sidebar {
+      margin-top: 0;
+      padding-top: 1rem;
+    }
+
+    .markdown-section {
+      margin-top: -3rem;
+      padding-top: 0;
+    }
+
+    .app-name-link {
+      font-size: 20px;
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    .sidebar ul li a {
+      color: #333;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .sidebar ul li a:hover {
+      color: #6B5B95;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      // name: 'Leeyoooo',//库名
+
+      subMaxLevel: 2,//最高显示 ?? 级目录
+
+      // loadNavbar: true,//是否加载导航栏
+
+      loadSidebar: true,//是否加载侧边栏
+      alias: {
+        'sidebar.md': '/_sidebar.md'
+      },
+      footer: {
+        copy: '<span>人生需要发呆 &copy; 2025</span>',
+        auth: 'by Aleeyoo',
+        pre: '<hr/>',
+        style: 'text-align: right;',
+        class: 'className',
+      },
+      repo: 'true',
+      corner: {
+        url: "https://011205.xyz",
+        // you can set the image link here  
+        icon: "https://em-content.zobj.net/source/microsoft-teams/400/saluting-face_1fae1.png",
+        // the size of the image  
+        width: 30,
+        height: 30
+      },
+    }
+  </script>
+
+  <!-- Docsify v4 -->
+
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- //字数 -->
+  <script src="//unpkg.com/docsify-count/dist/countable.min.js"></script>
+  <!-- //tab -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <!-- //警报 -->
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <!-- //更新时间 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.min.js"></script>
+  <!-- //进度条 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
+  <!-- //页脚增强 -->
+  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+  <!-- //折叠 -->
+  <script src="//unpkg.com/docsify-accordion/src/index.js"></script>
+  <!-- //[[]]引用 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-wikilink@1"></script>
+  <!-- //角标 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-corner/dist/docsify-corner.min.js"></script>
+  <!-- //emoji -->
+  <script src="//cdn.jsdelivr.net/gh/TaQini/docsify-twemoji@master/twemoji.min.js"></script>
+</body>
+
+</html>
