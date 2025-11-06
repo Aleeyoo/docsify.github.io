@@ -978,7 +978,3 @@
 > echo "Hello Linux"      输出字符串 "Hello Linux"
 
 <!-- tabs:end -->
-
-
-
-
