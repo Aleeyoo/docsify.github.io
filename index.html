@@ -10,7 +10,10 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="icon" type="image/x-icon"
     href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✍️</text></svg>">
+  <!-- // 折叠 -->
   <link rel="stylesheet" href="//unpkg.com/docsify-accordion/src/style.css">
+  <!-- // 顶部banner -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/style.css" />
   <style>
     :root {
       --theme-color: #6B5B95;
@@ -62,23 +65,25 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
+      topBanner: {
+        content: ' ', // 必填，单行内容
+        backgroundColor: '#6B5B95', // 背景颜色
+        position: 'top', // 位置
+      },
       // name: 'Leeyoooo',//库名
-
       subMaxLevel: 1,//最高显示 ?? 级目录
-
       // loadNavbar: true,//是否加载导航栏
-
       loadSidebar: true,//是否加载侧边栏
       alias: {
         'sidebar.md': '/_sidebar.md'
-      },
+      },//目录
       footer: {
         copy: '<span>人生需要发呆 &copy; 2025</span>',
         auth: 'by Aleeyoo',
         pre: '<hr/>',
         style: 'text-align: right;',
         class: 'className',
-      },
+      },//脚注
       repo: 'true',
       corner: {
         url: "https://011205.xyz",
@@ -87,13 +92,19 @@
         // the size of the image  
         width: 30,
         height: 30
-      },
-    }
+      },//右上角小标
+      pagination: {
+        crossChapter: true,
+        crossChapterText: true,
+      },//下一章
+      search: 'auto', // default
+    }//搜索 未生效
   </script>
 
   <!-- Docsify v4 -->
-
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- // 顶部banner -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/index.js"></script>
   <!-- //字数 -->
   <script src="//unpkg.com/docsify-count/dist/countable.min.js"></script>
   <!-- //tab -->
@@ -114,6 +125,13 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-corner/dist/docsify-corner.min.js"></script>
   <!-- //emoji -->
   <script src="//cdn.jsdelivr.net/gh/TaQini/docsify-twemoji@master/twemoji.min.js"></script>
+  <!-- //搜索 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- //分页 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- //幻灯片 需要改 .markdown-section-->
+  <!-- <script src="//unpkg.com/docsify-slides/dist/docsify-slides.min.js"></script> -->
+
 </body>
 
 </html>
