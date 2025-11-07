@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>文档</title>
+  <title>📂 一些...</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="文档">
+  <meta name="description" content="📂 一些...">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="icon" type="image/x-icon"
-    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✍️</text></svg>">
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📂</text></svg>">
   <!-- // 折叠 -->
   <link rel="stylesheet" href="//unpkg.com/docsify-accordion/src/style.css">
   <!-- // 顶部banner -->
@@ -58,6 +58,68 @@
     .sidebar ul li a:hover {
       color: #6B5B95;
     }
+
+    /* //风琴自定义 */
+    .accordion.active {
+      background: rgba(0, 0, 0, 0.1);
+      border-left: 3px solid #6B5B95;
+    }
+
+    /* //tab-badge-1 推荐! */
+    .tab-badge-red {
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(35%, -45%);
+      padding: 0.25em 0.35em;
+      /* 圆角 */
+      border-radius: 25px;
+      /* 颜色 */
+      background: red;
+      /* 字体颜色 */
+      color: white;
+      font-size: 11px;
+      font-weight: bold;
+    }
+
+    .tab-badge-blue {
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(35%, -45%);
+      padding: 0.25em 0.35em;
+      /* 圆角 */
+      border-radius: 25px;
+      /* 颜色 */
+      background: rgb(0, 128, 255);
+      /* 字体颜色 */
+      color: white;
+      font-size: 11px;
+      font-weight: bold;
+    }
+
+    .tab-badge {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 11px;
+    }
+
+    .docsify-tabs__content[data-tab-content='active state'] {
+      background-image: linear-gradient(0deg, #b5cfff 0%, #6B5B95 100%);
+    }
+
+
+    /* button {
+      border-radius: 100px;
+      background-color: #6B5B95;
+    } */
+
+    a {
+      font-weight: bold;
+      margin-top: 10px;
+      text-align: left;
+    }
   </style>
 </head>
 
@@ -70,7 +132,7 @@
         backgroundColor: '#6B5B95', // 背景颜色
         position: 'top', // 位置
       },
-      // name: 'Leeyoooo',//库名
+      name: '📂 一些...',//库名
       subMaxLevel: 1,//最高显示 ?? 级目录
       // loadNavbar: true,//是否加载导航栏
       loadSidebar: true,//是否加载侧边栏
@@ -97,8 +159,10 @@
         crossChapter: true,
         crossChapterText: true,
       },//下一章
-      search: 'auto', // default
-    }//搜索 未生效
+      tabs: {
+        theme: 'material', // material、classic
+      }
+    }
   </script>
 
   <!-- Docsify v4 -->
@@ -107,6 +171,8 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/index.js"></script>
   <!-- //字数 -->
   <script src="//unpkg.com/docsify-count/dist/countable.min.js"></script>
+  <!-- //折叠 -->
+  <script src="//unpkg.com/docsify-accordion/src/index.js"></script>
   <!-- //tab -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
   <!-- //警报 -->
@@ -117,16 +183,12 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
   <!-- //页脚增强 -->
   <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
-  <!-- //折叠 -->
-  <script src="//unpkg.com/docsify-accordion/src/index.js"></script>
   <!-- //[[]]引用 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-wikilink@1"></script>
   <!-- //角标 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-corner/dist/docsify-corner.min.js"></script>
   <!-- //emoji -->
   <script src="//cdn.jsdelivr.net/gh/TaQini/docsify-twemoji@master/twemoji.min.js"></script>
-  <!-- //搜索 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <!-- //分页 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <!-- //幻灯片 需要改 .markdown-section-->
