@@ -27,22 +27,4 @@
   </a>
 </div>
 
-<style>
-  /* 优化跳动动画：调整幅度和节奏，避免过于生硬 */
-  @keyframes bounce {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-8px); /* 减小跳动幅度，更显精致 */
-    }
-  }
-  
-  /* 统一hover效果：所有图标hover时轻微放大+提升透明度 */
-  a:hover {
-    transform: scale(1.05);
-  }
-  a:hover img {
-    opacity: 0.9;
-  }
 
