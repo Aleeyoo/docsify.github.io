@@ -13,11 +13,20 @@
   <link rel="stylesheet" href="//unpkg.com/docsify-accordion/src/style.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <!-- <link rel="stylesheet" href="oresify.css"> -->
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" /> -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
-  <link rel="stylesheet" href="oresify.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
 </head>
 <style>
+  :root {
+    --theme-color: #6B5B95;
+    --theme-color-light: #8A7CB0;
+    --theme-color-dark: #4A3B6B;
+  }
+
+  .accordion.active {
+    background: rgba(0, 0, 0, 0);
+    border-left: 3px solid #8A7CB0;
+  }
+
   .tab-badge-red {
     position: absolute;
     top: 0;
@@ -56,7 +65,7 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '只是一些文档',//库名
+      // name: '<img src="https://em-content.zobj.net/source/animated-noto-color-emoji/427/exploding-head_1f92f.gif" alt="微信" style="height: 40px; vertical-align: middle;"> ',//库名
       loadSidebar: true,//是否加载侧边栏
       subMaxLevel: 1,//最高显示 ?? 级目录    
       repo: '',
