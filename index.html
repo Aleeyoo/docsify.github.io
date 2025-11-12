@@ -3,197 +3,95 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>📂 一些...</title>
+  <title>一些文档</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="📂 一些...">
+  <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="icon" type="image/x-icon"
-    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📂</text></svg>">
-  <!-- // 折叠 -->
+  <link rel="icon"
+    href="https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-nZB6MgGWlOXQ6MmPDO0qFAbW0dEl4d.png&w=160&q=75"
+    type="image/png">
   <link rel="stylesheet" href="//unpkg.com/docsify-accordion/src/style.css">
-  <!-- // 顶部banner -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/style.css" />
-  <style>
-    :root {
-      --theme-color: #6B5B95;
-      --theme-color-light: #8A7CB0;
-      --theme-color-dark: #4A3B6B;
-    }
-
-    .sidebar {
-      background-color: #f8f9fa;
-      width: 200px;
-      min-width: 200px;
-    }
-
-    .app-name {
-      color: #6B5B95;
-      margin-top: 0;
-      padding-top: 0;
-    }
-
-    aside.sidebar {
-      margin-top: 0;
-      padding-top: 1rem;
-    }
-
-    .markdown-section {
-      margin-top: -3rem;
-      padding-top: 0;
-    }
-
-    .app-name-link {
-      font-size: 20px;
-      margin-top: 0;
-      padding-top: 0;
-    }
-
-    .sidebar ul li a {
-      color: #333;
-      font-size: 16px;
-      line-height: 1.5;
-    }
-
-    .sidebar ul li a:hover {
-      color: #6B5B95;
-    }
-
-    /* //风琴自定义 */
-    .accordion.active {
-      background: rgba(0, 0, 0, 0.1);
-      border-left: 3px solid #6B5B95;
-    }
-
-    /* //tab-badge-1 推荐! */
-    .tab-badge-red {
-      position: absolute;
-      top: 0;
-      right: 0;
-      transform: translate(35%, -45%);
-      padding: 0.25em 0.35em;
-      /* 圆角 */
-      border-radius: 25px;
-      /* 颜色 */
-      background: red;
-      /* 字体颜色 */
-      color: white;
-      font-size: 11px;
-      font-weight: bold;
-    }
-
-    .tab-badge-blue {
-      position: absolute;
-      top: 0;
-      right: 0;
-      transform: translate(35%, -45%);
-      padding: 0.25em 0.35em;
-      /* 圆角 */
-      border-radius: 25px;
-      /* 颜色 */
-      background: rgb(0, 128, 255);
-      /* 字体颜色 */
-      color: white;
-      font-size: 11px;
-      font-weight: bold;
-    }
-
-    .tab-badge {
-      position: absolute;
-      top: 0;
-      right: 0;
-      font-size: 11px;
-    }
-
-    .docsify-tabs__content[data-tab-content='active state'] {
-      background-image: linear-gradient(0deg, #b5cfff 0%, #6B5B95 100%);
-    }
-
-
-    /* button {
-      border-radius: 100px;
-      background-color: #6B5B95;
-    } */
-
-    a {
-      font-weight: bold;
-      margin-top: 10px;
-      text-align: left;
-    }
-  </style>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- <link rel="stylesheet" href="oresify.css"> -->
 </head>
+<style>
+  :root {
+    --theme-color: #6B5B95;
+    --theme-color-light: #8A7CB0;
+    --theme-color-dark: #4A3B6B;
+  }
+
+  .app-name-link {
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .sidebar ul li a:hover {
+    color: #6B5B95;
+  }
+
+  /* 侧边栏头部空白 */
+  .sidebar {
+    width: 200px;
+    min-width: 200px;
+  }
+
+  /* 文章头部空白 */
+  .markdown-section {
+    margin-top: -3rem;
+    padding-top: 0;
+  }
+</style>
 
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      topBanner: {
-        content: ' ', // 必填，单行内容
-        backgroundColor: '#6B5B95', // 背景颜色
-        position: 'top', // 位置
-      },
-      name: '📂 一些...',//库名
-      subMaxLevel: 1,//最高显示 ?? 级目录
-      // loadNavbar: true,//是否加载导航栏
+      name: '<img src="https://cdn.jsdelivr.net/gh/Aleeyoo/note-gen-image-sync@main/1265900e-1efb-4915-8e7a-bc3c38689275.png" alt="微信" vertical-align: middle;">',//库名
       loadSidebar: true,//是否加载侧边栏
+      subMaxLevel: 1,//最高显示 ?? 级目录    
+      repo: '',
       alias: {
         'sidebar.md': '/_sidebar.md'
-      },//目录
+      },
       footer: {
         copy: '<span>人生需要发呆 &copy; 2025</span>',
         auth: 'by Aleeyoo',
         pre: '<hr/>',
         style: 'text-align: right;',
         class: 'className',
-      },//脚注
-      repo: 'true',
-      corner: {
-        url: "https://011205.xyz",
-        // you can set the image link here  
-        icon: "https://em-content.zobj.net/source/microsoft-teams/400/saluting-face_1fae1.png",
-        // the size of the image  
-        width: 30,
-        height: 30
-      },//右上角小标
-      pagination: {
-        crossChapter: true,
-        crossChapterText: true,
-      },//下一章
-      tabs: {
-        theme: 'material', // material、classic
+      },
+      search: {
+        maxAge: 86400000, // 缓存过期时间，默认一天
+        paths: 'auto', // 或 'auto'
+        placeholder: '🤔 搜索',
+        noData: '😵 无结果',
+        depth: 6,
+        hideOtherSidebarContent: false, // 是否隐藏其他sidebar内容
       }
     }
   </script>
-
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <!-- // 顶部banner -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/index.js"></script>
+  <!-- 搜索插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <!-- //字数 -->
   <script src="//unpkg.com/docsify-count/dist/countable.min.js"></script>
-  <!-- //折叠 -->
-  <script src="//unpkg.com/docsify-accordion/src/index.js"></script>
-  <!-- //tab -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
-  <!-- //警报 -->
-  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
-  <!-- //更新时间 -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.min.js"></script>
   <!-- //进度条 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
   <!-- //页脚增强 -->
   <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
   <!-- //[[]]引用 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-wikilink@1"></script>
-  <!-- //角标 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-corner/dist/docsify-corner.min.js"></script>
   <!-- //emoji -->
   <script src="//cdn.jsdelivr.net/gh/TaQini/docsify-twemoji@master/twemoji.min.js"></script>
-  <!-- //分页 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <!-- //幻灯片 需要改 .markdown-section-->
-  <!-- <script src="//unpkg.com/docsify-slides/dist/docsify-slides.min.js"></script> -->
-
+  <!-- //tab -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <!-- //警报 -->
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <!-- //折叠 -->
+  <script src="//unpkg.com/docsify-accordion/src/index.js"></script>
 </body>
 
 </html>
