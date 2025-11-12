@@ -1,4 +1,6 @@
-* [Homepage](/)
+* [主页](/)
+* 学习笔记
+  * [Linux](/pages/学习笔记/Linux.md)
 * 命令
   * [Linux 命令](/pages/Linux_命令.md)
   * [Git 命令](/pages/Git_命令.md)
