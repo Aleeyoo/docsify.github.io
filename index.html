@@ -42,8 +42,54 @@
     margin-top: -3rem;
     padding-top: 0;
   }
+
+  .accordion.active {
+    background: rgba(0, 0, 0, 0.1);
+    border-left: 3px solid #6B5B95;
+  }
+
+  /* //tab-badge-1 推荐! */
+  .tab-badge-red {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(35%, -45%);
+    padding: 0.25em 0.35em;
+    /* 圆角 */
+    border-radius: 25px;
+    /* 颜色 */
+    background: red;
+    /* 字体颜色 */
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .tab-badge-blue {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(35%, -45%);
+    padding: 0.25em 0.35em;
+    /* 圆角 */
+    border-radius: 25px;
+    /* 颜色 */
+    background: rgb(0, 128, 255);
+    /* 字体颜色 */
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .tab-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 11px;
+  }
 </style>
 <div class="docsify-tabs__content" data-tab-content="active state">...</div>
+
 <body>
   <div id="app"></div>
   <script>
@@ -73,50 +119,7 @@
       tabs: {
         theme: 'material', // material、classic
       },
-      .accordion.active {
-      background: rgba(0, 0, 0, 0.1);
-      border-left: 3px solid #6B5B95;
-    }
 
-    /* //tab-badge-1 推荐! */
-    .tab-badge-red {
-      position: absolute;
-      top: 0;
-      right: 0;
-      transform: translate(35%, -45%);
-      padding: 0.25em 0.35em;
-      /* 圆角 */
-      border-radius: 25px;
-      /* 颜色 */
-      background: red;
-      /* 字体颜色 */
-      color: white;
-      font-size: 11px;
-      font-weight: bold;
-    }
-
-    .tab-badge-blue {
-      position: absolute;
-      top: 0;
-      right: 0;
-      transform: translate(35%, -45%);
-      padding: 0.25em 0.35em;
-      /* 圆角 */
-      border-radius: 25px;
-      /* 颜色 */
-      background: rgb(0, 128, 255);
-      /* 字体颜色 */
-      color: white;
-      font-size: 11px;
-      font-weight: bold;
-    }
-
-    .tab-badge {
-      position: absolute;
-      top: 0;
-      right: 0;
-      font-size: 11px;
-    }
     }
   </script>
   <!-- Docsify v4 -->
