@@ -33,8 +33,8 @@
 
   /* 侧边栏头部空白 */
   .sidebar {
-    width: 200px;
-    min-width: 200px;
+    width: 100px;
+    min-width: 100px;
   }
 
   /* 文章头部空白 */
@@ -43,12 +43,12 @@
     padding-top: 0;
   }
 </style>
-
+<div class="docsify-tabs__content" data-tab-content="active state">...</div>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '<img src="https://cdn.jsdelivr.net/gh/Aleeyoo/note-gen-image-sync@main/1265900e-1efb-4915-8e7a-bc3c38689275.png" alt="微信" vertical-align: middle;">',//库名
+      name: '<img src="https://em-content.zobj.net/source/animated-noto-color-emoji/427/exploding-head_1f92f.gif" alt="微信" style="height: 40px; vertical-align: middle;"> ',//库名
       loadSidebar: true,//是否加载侧边栏
       subMaxLevel: 1,//最高显示 ?? 级目录    
       repo: '',
@@ -69,6 +69,9 @@
         noData: '😵 无结果',
         depth: 6,
         hideOtherSidebarContent: false, // 是否隐藏其他sidebar内容
+      },
+      tabs: {
+        theme: 'material', // material、classic
       }
     }
   </script>
