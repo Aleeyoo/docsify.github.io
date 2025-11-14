@@ -9,7 +9,7 @@
   * Git
     * [Git 命令](/pages/基础/Git_命令.md)
   * SQL
-    * [SQL 命令](/pages/基础/SQL_命令.md)
+    * [SQL 语法](/pages/基础/SQL_语法.md) 
 * 项目
   * [GitHub 托管](/pages/项目/免费托管的开源项目.md)
 * 归档
