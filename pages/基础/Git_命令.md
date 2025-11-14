@@ -1,11 +1,11 @@
+## **Git 命令**
+
 > [!TIP] **git 工作区域**
 > ![git.png](https://raw.githubusercontent.com/Aleeyoo/note-gen-image-sync/main/72267ccb-8a99-443a-bd33-ea40ccb4ee0b.png)
 > **工作区：** 就是你在电脑上看到的目录，也叫做工作目录。<br>
 > **暂存区：** 英文叫stage, 或index。一般存放在".git目录"下的index文件（.git/index）中，所以我们把暂存区有时也叫作索引（index）。<br>
 > **本地仓库：** 就是你在本地计算机上的版本库，也叫做本地仓库。<br>
 > **远程仓库：** 托管在网络服务器上的版本库，也叫做远程仓库。<br>
-
-## Git 命令
 
 #### **初始配置**
 

@@ -2,6 +2,22 @@
 
 ### 写一点文档用来记录...
 
+## 快速跳转
+<!-- tabs:start -->
+#### **命令**
+[Linux 命令](/pages/基础/Linux_命令.md)<br>
+[Docker 命令](/pages/基础/Docker_命令.md)<br>
+[SQL 命令](/pages/基础/SQL_命令.md)<br>
+[Git 命令](/pages/基础/Git_命令.md)<br>
+#### **文件结构**
+[Linux 文件结构](/pages/基础/Linux_文件结构.md)
+#### **一些项目**
+[免费托管的开源项目](/pages/项目/免费托管的开源项目.md)<br>
+
+
+<!-- tabs:end -->
+
+### [关于我](/pages/lib/aboutme.md)
 ---
 
 
