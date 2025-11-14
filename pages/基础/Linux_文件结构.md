@@ -1,15 +1,3 @@
-# 目录结构
-
-> 一切皆文件
->
-> ```
-> 硬件 映射为 文件 管理
-> ```
->
-> ![image.png](https://raw.githubusercontent.com/Aleeyoo/note-gen-image-sync/main/4279eb8f-4396-43cd-8ee4-c08f2d65d62e.png)
-
-层级式 的 [[树状目录结构]] ，且最上层为 根目录 "/"
-
 [Linux 系统目录结构 | 菜鸟教程](https://www.runoob.com/linux/linux-system-contents.html)![Linux 系统目录结构](https://www.runoob.com/wp-content/uploads/2014/06/d0c50-linux2bfile2bsystem2bhierarchy.jpg)
 
 <!-- tabs:start -->

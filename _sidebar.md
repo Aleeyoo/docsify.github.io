@@ -1,19 +1,19 @@
 * [主页](/)
-* 学习笔记
-  * [Linux](/pages/学习笔记/Linux.md)
+* InBox
 * 基础
   * Linux
-    * [Linux 命令](/pages/命令/Linux_命令.md)
+    * [Linux 命令](/pages/基础/Linux_命令.md)
+    * [Linux 文件结构](/pages/基础/Linux_文件结构.md)
   * Docker
-    * [Docker 命令](/pages/命令/Docker_命令.md)
+    * [Docker 命令](/pages/基础/Docker_命令.md)
   * Git
-    * [Git 命令](/pages/命令/Git_命令.md)
+    * [Git 命令](/pages/基础/Git_命令.md)
   * SQL
-    * [SQL 命令](/pages/命令/SQL_命令.md)
-* 开源项目
-  * [GitHub 托管](/pages/免费托管的开源项目.md)
+    * [SQL 命令](/pages/基础/SQL_命令.md)
+* 项目
+  * [GitHub 托管](/pages/项目/免费托管的开源项目.md)
 * 归档
-  * [个人博客搭建](/pages/个人博客搭建.md)
+  * [个人博客搭建](/pages/lib/个人博客搭建.md)
 * 其他
-  * [关于我](/pages/aboutme.md)
+  * [关于我](/pages/lib/aboutme.md)
 
