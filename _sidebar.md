@@ -3,11 +3,13 @@
   * [Linux](/pages/学习笔记/Linux.md)
 * 基础
   * Linux
-    * [Linux 命令](/pages/Linux_命令.md)
+    * [Linux 命令](/pages/命令/Linux_命令.md)
   * Docker
-    * [Docker 命令](/pages/Docker_命令.md)
+    * [Docker 命令](/pages/命令/Docker_命令.md)
   * Git
-    * [Git 命令](/pages/Git_命令.md)
+    * [Git 命令](/pages/命令/Git_命令.md)
+  * SQL
+    * [SQL 命令](/pages/命令/SQL_命令.md)
 * 开源项目
   * [GitHub 托管](/pages/免费托管的开源项目.md)
 * 归档
