@@ -6,6 +6,8 @@
     * [Linux 文件结构](/pages/基础/Linux_文件结构.md)
   * Docker
     * [Docker 命令](/pages/基础/Docker_命令.md)
+  * Shell
+    * [Shell 脚本](/pages/基础/shell_脚本.md)
   * Git
     * [Git 命令](/pages/基础/Git_命令.md)
   * SQL
